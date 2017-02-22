@@ -1,22 +1,16 @@
 {
-  "name": "info-digit",
+  "name": "simple_node_server",
   "version": "1.0.0",
-  "description": "digitin infonäyttö",
+  "description": "Simple node-express-server for tutorial and application base purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "hello": "echo \"Hello, KoodiKerho! \" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vaintti/digit-info.git"
-  },
-  "keywords": [
-    "info"
-  ],
-  "author": "Antti Vainikka",
+  "author": "pymapa",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Vaintti/digit-info/issues"
-  },
-  "homepage": "https://github.com/Vaintti/digit-info#readme"
+  "dependencies": {
+    "express": "^4.14.1"
+  }
 }
